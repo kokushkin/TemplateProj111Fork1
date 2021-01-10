@@ -53,6 +53,12 @@ const algoritms = {
     const groupedArr2 = _.groupBy(arr2, "key");
     console.log(groupedArr2);
     return _.map(arr1, (arr1El, id) => ({ ...arr1El, ...groupedArr2[id] }));
+  },
+
+  joinFromGitterLodashForum234234234: (arr1, arr2) => {
+    const groupedArr2 = _.groupBy(arr2, "key");
+    console.log(groupedArr2);
+    return _.map(arr1, (arr1El, id) => ({ ...arr1El, ...groupedArr2[id] }));
   }
 };
 
